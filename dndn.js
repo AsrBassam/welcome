@@ -26,5 +26,5 @@ client.on("guildMemberAdd", member => {
 **`) 
 }).catch(console.error)
 })
-client.login("NTI1NzI2MDc3NDg2NzU5OTM2.Dv60bg.Be5nitrH0cysHpk7UjM6GN4N2xs"
+client.login(process.env.TOKEN); 
 );
